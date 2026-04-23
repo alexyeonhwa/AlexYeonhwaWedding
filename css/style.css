@@ -344,6 +344,22 @@ fieldset {
 	padding: 0;
 	margin: 0;
 	border: 0;
+	background-color: #c0CFB2;
+}
+
+
+#contactoForm fieldset {
+	background-color: rgba(192, 207, 178, 0.2);
+}
+
+#contactoForm textarea {
+	font-size: inherit;
+	color: inherit;
+}
+
+#contactoForm select {
+	font-size: inherit;
+	color: inherit;
 }
 
 legend {
@@ -2749,10 +2765,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-
 	color: #fff;
-	background-color: #99AD87;
-	border-color: #99AD87;
+	background-color: #94c269;
+	border-color: #94c269;
 	border-radius: .5em;
 }
 
@@ -10554,6 +10569,19 @@ a.text-dark:focus {
 a.text-dark-light:hover,
 a.text-dark:focus {
 	color: black !important;
+}
+
+.text-dark-light-green,
+.text-dark-light-green a {
+	color: #94c269 !important;
+}
+
+.text-dark-light-green a:hover {
+	color: #c0CFB2 !important;
+}
+
+a > img:hover {
+	box-shadow: 1px 1px 5px #c0CFB2;
 }
 
 .text-body {
