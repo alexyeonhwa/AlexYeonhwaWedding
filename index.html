@@ -296,7 +296,7 @@
 					<div class="text-center">
 
 						<form id="contactoForm">
-
+							<!--*****************************************-->
 							<fieldset class="form-row input-group-text">
 								<div>
 									<label class="radio-option">
@@ -306,11 +306,10 @@
 										<input type="radio" name="asistencia" value="no" required> No
 									</label>
 								</div>
-
+								<!--*****************************************-->
 								<label for="nombre">Your name:</label>
 								<input id="nombre" name="nombre" type="text" class="form-control border-0" placeholder="Your Name" />
-
-
+								<!--*****************************************-->
 								<div>
 									<select name="nutritional" class="border-0" class="" class="form-control custom-select">
 										<option value="nutritionalguest" disabled selected>Nutritional needs</option>
@@ -324,7 +323,7 @@
 									</select>
 								</div>
 							</fieldset>
-
+							<!--*****************************************-->
 							<fieldset class="form-row input-group-text">
 								<div>
 									<label for="nguests">Nº of acompañantes</label>
@@ -337,12 +336,43 @@
 									</select>
 								</div>
 							</fieldset>
-							<fieldset class="form-row input-group-text">
-								<p>Guest's Names:</p>
-								<textarea id="guestname" name="guestname" type="text" class="form-control" placeholder="Guest Name">
-								</textarea>
 
+							<!--*****************************************-->
+							<fieldset class="form-row input-group-text">
+								<!-- ******************** nombre e intoleracians acompañantes -->
+								<div>
+
+								</div><label for="nombreguest1">Guest's names
+									<textarea id="guestname" name="guestname" type="text" class="form-control" placeholder="Guest Name">
+								</textarea> </label>
+
+								<div>
+									<div>
+										<p>Nutritional needs for guests:</p>
+										<label class="radio-option">
+											<input type="radio" name="nutrineedguest" value="yes" required> Yes
+										</label>
+										<label class="radio-option">
+											<input type="radio" name="nutrineedguest" value="no" required> No
+										</label>
+									</div>
+									<select multiple name="nutritionalguest1" class="border-0" class="" class="form-control custom-select">
+										<option value="nutritionalguest" disabled selected>Nutritional needs</option>
+										<!-- <option value="nutritionalnoguest">No</option>-->
+										<option value="Celiac">Celiac patients</option>
+										<option value="Vegan">Vegan</option>
+										<option value="Vegetarian">Vegetarian</option>
+										<option value="Lactose Intolerant">Lactose intolerant</option>
+										<option value="Egg Intolerant">Egg intolerant</option>
+										<option value="Nut Intolerant">Nut intolerant</option>
+									</select>
+								</div>
 							</fieldset>
+
+
+
+
+
 							<div class="form-row input-group-text">
 								<p>Send us a message or other information</p>
 								<textarea name="message" class="form-control border-0" rows="5" placeholder="Message"></textarea>
