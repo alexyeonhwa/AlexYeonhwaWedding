@@ -606,7 +606,13 @@ mark,
 .blockquote-home {
 	display: block;
 	font-size: 100%;
-	color: #fffbe7;
+	color: #fff8e7;
+}
+
+.iban {
+	padding: .5em;
+	border-radius: .5rem;
+
 }
 
 .blockquote-footer {
@@ -617,6 +623,13 @@ mark,
 
 .blockquote-footer::before {
 	content: "\2014\00A0";
+}
+
+.footer-company-name {
+	font-size: 70%;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid blue;
 }
 
 .img-fluid {
@@ -2773,30 +2786,33 @@ fieldset:disabled a.btn {
 .btn-primary {
 	color: #fff;
 	background-color: #94c269;
-	border-color: #94c269;
+	/*	border-color: #94c269;*/
 	border-radius: .5em;
+	padding: 0px;
 }
 
 .btn-primary:hover {
-	color: #fff;
+	color: #121F38;
 	background-color: #c0CFB2;
-	border-color: #99AD87;
-	box-shadow: 0 0 0 0.1rem rgba(153, 173, 135, 0.5);
+	font-weight: bold;
+	/*	border-color: #99AD87;*/
+	/*	box-shadow: 0 0 0 0.1rem rgba(153, 173, 135, 0.5);*/
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
 	color: #121F38;
-	background-color: #db4e4e;
-	border-color: #db4e4e;
-	box-shadow: 0 0 0 0.2rem rgba(232, 142, 77, 0.5);
+	background-color: #c0CFB2;
+	font-weight: bold;
+	/*	border-color: #db4e4e;*/
+	/*	box-shadow: 0 0 0 0.2rem rgba(232, 142, 77, 0.5);*/
 }
 
 .btn-primary.disabled,
 .btn-primary:disabled {
 	color: #fff;
 	background-color: rgba(232, 142, 77, 0.5);
-	border-color: rgba(232, 142, 77, 0.5);
+	/*	border-color: rgba(232, 142, 77, 0.5);*/
 }
 
 .btn-primary:not(:disabled):not(.disabled):active,
@@ -2823,14 +2839,15 @@ fieldset:disabled a.btn {
 .btn-secondary:hover {
 	color: #212529;
 	background-color: #d3e6eb;
-	border-color: #cae1e7;
+	/*	border-color: #cae1e7;
+	*/
 }
 
 .btn-secondary:focus,
 .btn-secondary.focus {
 	color: #212529;
 	background-color: #d3e6eb;
-	border-color: #cae1e7;
+	/*	border-color: #cae1e7;*/
 	box-shadow: 0 0 0 0.2rem rgba(206, 214, 216, 0.5);
 }
 
@@ -2853,6 +2870,12 @@ fieldset:disabled a.btn {
 .btn-secondary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-secondary.dropdown-toggle:focus {
 	box-shadow: 0 0 0 0.2rem rgba(206, 214, 216, 0.5);
+}
+
+#btnEnviar {
+	padding: .5rem !important;
+	margin: auto;
+	width: 100%;
 }
 
 .btn-success {
@@ -6785,6 +6808,10 @@ button.bg-primary:focus {
 	background-color: #EDF5F7 !important;
 }
 
+.bg-secondary_semi {
+	background-color: rgba(192, 207, 178, 0.2) !important;
+}
+
 a.bg-secondary:hover,
 a.bg-secondary:focus,
 button.bg-secondary:hover,
@@ -6862,6 +6889,11 @@ button.bg-dark:focus {
 
 .bg-white {
 	background-color: #fff !important;
+}
+
+.bg-crema {
+	background-color: #fff8e7 !important;
+
 }
 
 .bg-transparent {
