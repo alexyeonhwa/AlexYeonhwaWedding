@@ -603,6 +603,12 @@ mark,
 	font-size: 1.25rem;
 }
 
+.blockquote-home {
+	display: block;
+	font-size: 100%;
+	color: #fffbe7;
+}
+
 .blockquote-footer {
 	display: block;
 	font-size: 80%;
@@ -10490,6 +10496,10 @@ button.bg-dark:focus {
 	color: #fff !important;
 }
 
+.text-crema {
+	color: #fff8e7 !important;
+}
+
 .text-primary {
 	color: #99ad87 !important;
 }
@@ -10815,6 +10825,7 @@ a > img:hover {
 	right: 0;
 	bottom: 0;
 	background: rgba(0, 0, 0, 0.5);
+	z-index: 1;
 	z-index: 1;
 }
 
