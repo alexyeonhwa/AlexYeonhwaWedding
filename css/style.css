@@ -339,6 +339,12 @@ input[type="checkbox"] {
 	padding: 0;
 }
 
+.radio-option {
+	width: auto;
+	box-sizing: border-box;
+	padding: 0rem;
+}
+
 fieldset {
 	min-width: 0;
 	padding: 0;
@@ -347,10 +353,11 @@ fieldset {
 	background-color: #c0CFB2;
 }
 
-
 #contactoForm fieldset {
 	background-color: rgba(192, 207, 178, 0.2);
+	/*	border: 1px solid blue;*/
 }
+
 
 #contactoForm textarea {
 	font-size: inherit;
@@ -629,7 +636,7 @@ mark,
 	font-size: 70%;
 	margin: 0px;
 	padding: 0px;
-	border: 1px solid blue;
+	/*	border: 1px solid blue;*/
 }
 
 .img-fluid {
@@ -2384,7 +2391,7 @@ textarea.form-control {
 }
 
 form textarea {
-	border: 1px solid blue !imnportant;
+	/*	border: 1px solid blue !imnportant;*/
 	font-size: 50rem !imnportant;
 }
 
@@ -3949,7 +3956,8 @@ input[type="button"].btn-block {
 	white-space: nowrap;
 	background-color: #e9ecef;
 	border: 1px solid #ced4da;
-	border-radius: .2rem
+	border-radius: .2rem;
+
 }
 
 .input-group-text input[type="text"] {
@@ -3959,7 +3967,6 @@ input[type="button"].btn-block {
 .input-group-text input[type="radio"],
 .input-group-text input[type="checkbox"] {
 	margin-top: 0;
-
 }
 
 .input-group-lg > .form-control:not(textarea),
