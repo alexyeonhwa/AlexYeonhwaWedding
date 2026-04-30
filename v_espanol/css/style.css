@@ -10527,6 +10527,10 @@ button.bg-dark:focus {
 	font-weight: bolder !important;
 }
 
+.font-monospace {
+	font-family: monospace !important;
+}
+
 .font-italic {
 	font-style: italic !important;
 }
@@ -10730,6 +10734,7 @@ a > img:hover {
 		size: a3;
 	}
 
+	/* comentado movil
 	body {
 		min-width: 992px !important;
 	}
@@ -10737,6 +10742,7 @@ a > img:hover {
 	.container {
 		min-width: 992px !important;
 	}
+*/
 
 	.navbar {
 		display: none;
@@ -11095,5 +11101,36 @@ a > img:hover {
 @media (max-width: 767.98px) {
 	#event .border-right {
 		border-right: none !important;
+	}
+}
+
+/*nuevo movil*/
+* {
+	box-sizing: boder-box
+}
+
+/*
+img {
+	max-width: 100%
+}
+
+body {
+	margin: 0;
+}*/
+
+/* Equivalente a min-width: 768px */
+@media (width >=768px) {}
+
+/* Equivalente a un rango entre 320px y 480px */
+@media (320px <=width <=480px) {
+	body {
+		width: 100vw !important;
+	}
+
+	.container {
+		width: 90vw !important;
+		box-sizing: boder-box;
+		overflow-x: hidden;
+		/*		border: 2px solid red;*/
 	}
 }
